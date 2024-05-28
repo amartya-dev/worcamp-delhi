@@ -268,3 +268,43 @@ main.wp-block-group{
 }
 
 /* Button Ends */
+
+/* Button Road */
+.wcd__bottom_road{
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    
+    width: 100%;
+    margin: 0 !important;
+
+    > *{
+        width: 100%;
+    }
+
+    > div{
+        max-width: 100% !important;
+    }
+
+    img{
+        width: 100%;
+    }
+}
+
+.progress-container{
+    margin-top: 0;
+}
+
+.progress-bar{
+    position: relative;
+
+    img{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: translateX(50%);
+
+        width: 170px;
+    }
+}
