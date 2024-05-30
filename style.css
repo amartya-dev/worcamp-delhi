@@ -11,14 +11,14 @@
 
 /* Others */
 main.wp-block-group{
-    > div:not(.entry-content){
-        display: none;
-    }
-
     .entry-content{
         margin-top: 0;
     }
 }
+
+main.wp-block-group > div:not(.entry-content){
+        display: none;
+    }
 
 /* Header */
 header{
