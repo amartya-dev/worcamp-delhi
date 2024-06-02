@@ -724,3 +724,20 @@
 .d-none {
     display: none !important;
 }
+
+/* Amartya's Code */
+.progress-container img {
+	height: 100%;
+	width: 100%;
+	animation: moveImage 1s linear both;
+	animation-timeline: scroll(root);
+}
+
+@keyframes moveImage {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(100vw);
+	}
+}
