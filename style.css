@@ -753,7 +753,7 @@
 }
 
 .why-section {
-    background-image: url("./lp-why.png");
+    background-image: url("https://delhi.wordcamp.org/2024/files/2024/05/lp-why.png");
     background-position: center center;
     background-size: cover;
     height: 100vh;
@@ -778,7 +778,6 @@
         font-weight: 400;
         text-align: center;
         color: #508EBD;
-        width: 40%
     }
 
     .why-numbers-section {
@@ -801,8 +800,6 @@
     }
 
     .what-when-why {
-        width: 50%;
-
         .plain {
             border-bottom: none !important;
         }
