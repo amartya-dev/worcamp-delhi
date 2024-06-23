@@ -751,3 +751,79 @@
         transform: translateX(100vw);
     }
 }
+
+.why-section {
+    background-image: url("./lp-why.png");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .heading {
+        display: flex;
+        gap: 10px;
+        margin-top: 5%;
+        align-items: flex-end;
+        .why-wordcamp-text {
+            font-size: 40px;
+            font-weight: 800;
+            color: #25648F;
+        }
+    }
+
+    .why-hero-text {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        color: #508EBD;
+        width: 40%
+    }
+
+    .why-numbers-section {
+        display: flex;
+        gap: 30px;
+    }
+
+    .why-number-text {
+        font-weight: 700;
+        font-size: 20px;
+        color: #FDA13A;
+        text-align: center;
+    }
+
+    .why-info-text {
+        font-weight: 400;
+        font-size: 16px;
+        color: #FDA13A;
+        text-align: center;
+    }
+
+    .what-when-why {
+        width: 50%;
+
+        .plain {
+            border-bottom: none !important;
+        }
+
+        .section {
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-between;
+            border-bottom: #FDA13A 1px solid;
+
+            .section-text {
+                color: #25648F;
+                font-size: 16px;
+                font-weight: 400;
+            }
+
+            .section-heading {
+                color: #FDA13A;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+    }
+}
