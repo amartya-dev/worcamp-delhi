@@ -759,68 +759,72 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center !important;
+}
 
-    .heading {
-        display: flex;
-        gap: 10px;
-        margin-top: 5%;
-        align-items: flex-end;
-        .why-wordcamp-text {
-            font-size: 40px;
-            font-weight: 800;
-            color: #25648F;
-        }
-    }
+.why-section-heading {
+    display: flex;
+    gap: 10px;
+    margin-top: 5%;
+    align-items: flex-end;
+}
 
-    .why-hero-text {
-        font-size: 16px;
-        font-weight: 400;
-        text-align: center;
-        color: #508EBD;
-    }
+.why-wordcamp-text {
+    font-size: 40px;
+    font-weight: 800;
+    color: #25648F;
+}
 
-    .why-numbers-section {
-        display: flex;
-        gap: 30px;
-    }
+.why-hero-text {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #508EBD;
+    width: 40%
+}
 
-    .why-number-text {
-        font-weight: 700;
-        font-size: 20px;
-        color: #FDA13A;
-        text-align: center;
-    }
+.why-numbers-section {
+    display: flex;
+    gap: 30px;
+}
 
-    .why-info-text {
-        font-weight: 400;
-        font-size: 16px;
-        color: #FDA13A;
-        text-align: center;
-    }
+.why-number-text {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FDA13A;
+    text-align: center;
+}
 
-    .what-when-why {
-        .plain {
-            border-bottom: none !important;
-        }
+.why-info-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FDA13A;
+    text-align: center;
+}
 
-        .section {
-            display: flex;
-            align-items: flex-end;
-            justify-content: space-between;
-            border-bottom: #FDA13A 1px solid;
+.what-when-why {
+    width: 50%;
+}
 
-            .section-text {
-                color: #25648F;
-                font-size: 16px;
-                font-weight: 400;
-            }
+.what-when-why-section-plain {
+    border-bottom: none !important;
+}
 
-            .section-heading {
-                color: #FDA13A;
-                font-size: 14px;
-                font-weight: 500;
-            }
-        }
-    }
+.what-when-why-section {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: #FDA13A 1px solid;
+}
+
+.what-when-why-section-text {
+    color: #25648F;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.what-when-why-section-heading {
+    color: #FDA13A;
+    font-size: 14px;
+    font-weight: 500;
 }
