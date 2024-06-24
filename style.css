@@ -743,14 +743,95 @@
     animation-timeline: scroll() !important;
 }
 
+.speech-bubble {
+    position: relative;
+    background: #caa413;
+    border-radius: 10px;
+    padding: 20px;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    width: fit-content;
+    max-width: 300px;
+    bottom: 200px;
+    left: 50px;
+    width: 150px;
+    height: 15px;
+}
+
+.speech-bubble::after {
+    content: '';
+    position: absolute;
+    bottom: 8px; /* Adjust based on the size of the triangle */
+    left: 20px; /* Adjust based on the position of the triangle */
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #caa413;
+    border-bottom: 0;
+    margin-left: -20px;
+    margin-bottom: -20px;
+}
+
+.auto-group {
+    height: 150px;
+    width: 180px;
+    animation: moveImage 88s infinite;
+}
+
 @keyframes moveImage {
     0% {
         transform: translateX(0);
     }
-    100% {
-        transform: translateX(100vw);
+    11% {
+        transform: translateX(11vw);
+    }
+    22% {
+        transform: translateX(22vw);
+    }
+    33% {
+        transform: translateX(33vw);
+    }
+    44% {
+        transform: translateX(44vw);
+    }
+    55% {
+        transform: translateX(55vw);
+    }
+    66% {
+        transform: translateX(66vw);
+    }
+    77% {
+        transform: translateX(77vw);
+    }
+    88% {
+        transform: translateX(88vw);
     }
 }
+
+.speech-bubble span {
+    position: absolute;
+    opacity: 0;
+    width: 150px;
+    left: 20px;
+    bottom: 10px;
+    animation: changeContent 88s linear infinite; /* 8 messages * 11 seconds each */
+}
+
+.speech-bubble span:nth-child(1) { animation-delay: 0s; }
+.speech-bubble span:nth-child(2) { animation-delay: 11s; }
+.speech-bubble span:nth-child(3) { animation-delay: 22s; }
+.speech-bubble span:nth-child(4) { animation-delay: 33s; }
+.speech-bubble span:nth-child(5) { animation-delay: 44s; }
+.speech-bubble span:nth-child(6) { animation-delay: 55s; }
+.speech-bubble span:nth-child(7) { animation-delay: 66s; }
+.speech-bubble span:nth-child(8) { animation-delay: 77s; }
+
+@keyframes changeContent {
+    0%, 12.5% { opacity: 1; }
+    12.6%, 100% { opacity: 0; }
+}
+
 
 .why-section {
     background-image: url("https://delhi.wordcamp.org/2024/files/2024/05/lp-why.png");
