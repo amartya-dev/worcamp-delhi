@@ -840,6 +840,7 @@
 
 .gold-sponsors-section {
     background-color: #EBF3F3;
+    margin-top: 0 !important;
 }
 
 .sponsor-info-section {
@@ -866,6 +867,7 @@
     display: flex;
     gap: 100px;
     justify-content: center;
+    margin-top: 3%;
 }
 
 .gold-sponsor-tiles {
