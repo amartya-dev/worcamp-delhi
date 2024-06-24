@@ -830,3 +830,10 @@
     font-size: 14px;
     font-weight: 500;
 }
+
+.gold-sponsor-section-heading {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: #25648F;
+}
