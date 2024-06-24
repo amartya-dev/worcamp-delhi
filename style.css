@@ -776,7 +776,7 @@
 .auto-group {
     height: 150px;
     width: 180px;
-    animation: moveImage 88s infinite;
+    animation: moveImage 40s infinite;
 }
 
 @keyframes moveImage {
@@ -812,26 +812,22 @@
 .speech-bubble span {
     position: absolute;
     opacity: 0;
-    width: 150px;
-    left: 20px;
-    bottom: 10px;
-    animation: changeContent 88s linear infinite; /* 8 messages * 11 seconds each */
+    animation: changeContent 40s linear infinite; /* 8 messages * 5 seconds each */
 }
 
 .speech-bubble span:nth-child(1) { animation-delay: 0s; }
-.speech-bubble span:nth-child(2) { animation-delay: 11s; }
-.speech-bubble span:nth-child(3) { animation-delay: 22s; }
-.speech-bubble span:nth-child(4) { animation-delay: 33s; }
-.speech-bubble span:nth-child(5) { animation-delay: 44s; }
-.speech-bubble span:nth-child(6) { animation-delay: 55s; }
-.speech-bubble span:nth-child(7) { animation-delay: 66s; }
-.speech-bubble span:nth-child(8) { animation-delay: 77s; }
+.speech-bubble span:nth-child(2) { animation-delay: 5s; }
+.speech-bubble span:nth-child(3) { animation-delay: 10s; }
+.speech-bubble span:nth-child(4) { animation-delay: 15s; }
+.speech-bubble span:nth-child(5) { animation-delay: 20s; }
+.speech-bubble span:nth-child(6) { animation-delay: 25s; }
+.speech-bubble span:nth-child(7) { animation-delay: 30s; }
+.speech-bubble span:nth-child(8) { animation-delay: 35s; }
 
 @keyframes changeContent {
     0%, 12.5% { opacity: 1; }
     12.6%, 100% { opacity: 0; }
 }
-
 
 .why-section {
     background-image: url("https://delhi.wordcamp.org/2024/files/2024/05/lp-why.png");
