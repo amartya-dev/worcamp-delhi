@@ -1132,3 +1132,7 @@
 .footer-platform {
     width: 100vw;
 }
+
+.footer-platform-image {
+    width: 100%;
+}
