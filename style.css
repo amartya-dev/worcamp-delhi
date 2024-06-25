@@ -1136,3 +1136,9 @@
 .footer-platform-image {
     width: 100%;
 }
+
+.footer-links-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0 !important;
+}
