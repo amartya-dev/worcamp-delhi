@@ -727,6 +727,15 @@
 
 /* Amartya's Code */
 
+.auto-progress {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+	z-index: 10;
+    display: flex;
+    gap: 10px;
+}
+
 .speech-bubble {
     position: relative;
     background: #caa413;
@@ -755,16 +764,6 @@
     border-bottom: 0;
     margin-left: -20px;
     margin-bottom: -20px;
-}
-
-
-.auto-progress {
-    position: fixed;
-    bottom: 0px;
-    left: 0;
-	z-index: 10;
-    display: flex;
-    gap: 10px;
 }
 
 .auto-group {
