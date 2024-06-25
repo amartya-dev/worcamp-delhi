@@ -812,7 +812,10 @@
 .speech-bubble span {
     position: absolute;
     opacity: 0;
-    animation: changeContent 40s linear infinite; /* 8 messages * 5 seconds each */
+    width: 150px;
+    left: 20px;
+    bottom: 10px;
+    animation: changeContent 40s linear infinite; /* 8 messages * 11 seconds each */
 }
 
 .speech-bubble span:nth-child(1) { animation-delay: 0s; }
