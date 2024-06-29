@@ -741,6 +741,10 @@
     width: "100vw";
 }
 
+.auto-image {
+    margin-bottom: -110%;
+}
+
 .speech-bubble {
     position: relative;
     background: #caa413;
