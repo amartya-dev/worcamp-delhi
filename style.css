@@ -1165,4 +1165,12 @@
     .what-when-why {
         width: 90%;
     }
+
+    .lamp-image {
+        width: 15%;
+    }
+
+    .why-section {
+        padding-bottom: 130%;
+    }
 }
