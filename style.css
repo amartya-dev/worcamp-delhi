@@ -1153,6 +1153,10 @@
     margin-top: -0.65% !important;
 }
 
+.train-image {
+    width: 100%;
+}
+
 @media screen and (max-width: 600px) {
     .why-wordcamp-text {
         font-size: 24px;
