@@ -1177,4 +1177,12 @@
     .sponsor-info-section {
         flex-wrap: wrap;
     }
+
+    .footer-links-section {
+        display: none;
+    }
+
+    .hanuman-image {
+        margin-left: 38%;
+    }
 }
