@@ -1189,4 +1189,8 @@
     .hanuman-image {
         margin-left: 38%;
     }
+
+    .gold-sponsors-grid {
+        display: none;
+    }
 }
