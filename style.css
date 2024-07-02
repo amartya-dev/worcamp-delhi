@@ -1193,4 +1193,13 @@
     .gold-sponsors-grid {
         display: none;
     }
+
+    .sponsor-info-card {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .auto-progress {
+        display: none;
+    }
 }
