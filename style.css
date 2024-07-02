@@ -1173,4 +1173,8 @@
     .why-section {
         padding-bottom: 130%;
     }
+
+    .sponsor-info-section {
+        flex-wrap: wrap;
+    }
 }
