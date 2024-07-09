@@ -1206,6 +1206,10 @@
         margin-left: 18%;
     }
 
+    .sponsor-info-section {
+        padding-left: 7%;
+    }
+
     .gold-sponsors-row {
         display: none;
     }
