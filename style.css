@@ -1220,8 +1220,11 @@
 
     .sponsor-info-card {
         margin-right: 5%;
-        margin-left: 5%;
         height: 500px;
+    }
+
+    .sponsor-info-card::before {
+        display: none;
     }
 
     .auto-progress {
