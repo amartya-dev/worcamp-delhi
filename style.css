@@ -872,7 +872,7 @@
 
 .why-numbers-section {
     display: flex;
-    gap: 30px;
+    gap: 100px;
 }
 
 .why-number-text {
@@ -880,6 +880,7 @@
     font-size: 20px;
     color: #FDA13A;
     text-align: center;
+    margin-bottom: 0 !important
 }
 
 .why-info-text {
@@ -887,10 +888,11 @@
     font-size: 16px;
     color: #FDA13A;
     text-align: center;
+    margin-bottom: 0 !important;
 }
 
 .what-when-why {
-    width: 50%;
+    width: 60%;
 }
 
 .what-when-why-section-plain {
@@ -908,6 +910,7 @@
     color: #25648F;
     font-size: 16px;
     font-weight: 400;
+    margin-right: 10%;
 }
 
 .what-when-why-section-heading {
@@ -950,7 +953,7 @@
 
 .gold-sponsors-row {
     display: flex;
-    gap: 100px;
+    gap: 60px;
     justify-content: center;
     margin-top: 3%;
 }
@@ -1194,7 +1197,7 @@
     }
 
     .hanuman-image {
-        margin-left: 38%;
+        margin-left: 18%;
     }
 
     .gold-sponsors-grid {
