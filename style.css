@@ -1206,11 +1206,11 @@
         margin-left: 18%;
     }
 
-    .gold-sponsors-grid {
+    .gold-sponsors-grid-row {
         display: none;
     }
 
-    .gold-sponsors-grid-mobile {
+    .gold-sponsors-grid-row-mobile {
         display: block;
     }
 
