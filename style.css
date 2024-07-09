@@ -1211,7 +1211,7 @@
     }
 
     .gold-sponsors-row-mobile {
-        display: block;
+        display: flex;
     }
 
     .sponsor-info-card {
