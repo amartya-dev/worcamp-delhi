@@ -958,6 +958,13 @@
     margin-top: 6%;
 }
 
+.gold-sponsors-row-mobile {
+    gap: 30px;
+    justify-content: center;
+    margin-top: 6%;
+    display: none;
+}
+
 .gold-sponsor-tiles {
     display: flex;
     gap: 65px;
@@ -1201,6 +1208,10 @@
 
     .gold-sponsors-grid {
         display: none;
+    }
+
+    .gold-sponsors-grid-mobile {
+        display: block;
     }
 
     .sponsor-info-card {
