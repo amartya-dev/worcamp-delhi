@@ -1160,6 +1160,10 @@
     width: 100%;
 }
 
+.lamp-image {
+    width: 12%;
+}
+
 @media screen and (max-width: 600px) {
     .why-wordcamp-text {
         font-size: 24px;
