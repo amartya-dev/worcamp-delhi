@@ -1211,7 +1211,7 @@
 }
 
 .wc-dropdown-button:after {
-    content: ' \25BC';
+    content: '\25BC';
     font-size: 12px;
 }
 
