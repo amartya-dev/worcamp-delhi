@@ -1244,6 +1244,10 @@
     display: block;
 }
 
+.wc-dropdown:hover {
+    transform: translateY(-5%)
+}
+
 .wc-header-logo-container {
     transform: translateY(50%);
 }
