@@ -1215,6 +1215,7 @@
 }
 
 .wc-dropdown-content {
+    margin-left: 8%;
     display: none;
     position: absolute;
     background-color: #F5A623;
