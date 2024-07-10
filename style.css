@@ -1200,6 +1200,7 @@
 }
 
 .wc-dropdown-button {
+    border-radius: 10px;
     background-color: #F5A623;
     color: black;
     padding: 10px 20px;
