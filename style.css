@@ -1241,6 +1241,13 @@
     display: block;
 }
 
+.wc-header-logo-container {
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    transform: translateY(-50%);
+}
+
 @media screen and (max-width: 600px) {
     .why-wordcamp-text {
         font-size: 24px;
