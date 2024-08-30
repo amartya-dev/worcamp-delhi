@@ -1310,3 +1310,138 @@
         display: none;
     }
 }
+
+/* Pahwa tests*/
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f5f5f5;
+}
+
+.footer-info {
+    display: flex;
+    gap: 2rem;
+}
+
+.event-details {
+    max-width: 300px;
+}
+
+.event-date {
+    color: #FDA13A;
+    font-weight: 500;
+}
+
+.event-tagline {
+    color: #25648F;
+}
+
+.event-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #25648F;
+}
+
+.event-location {
+    font-weight: 500;
+}
+
+.meetup-image img {
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+.footer-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.subscribe-form input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.station-markers {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+
+.station-marker {
+    background-color: #FDA13A;
+    color: #1A1A1A;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-info {
+        flex-direction: column;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+    }
+}
+.jetpack-subscription-form {
+    margin-bottom: 1rem;
+}
+
+.jetpack_subscription_widget {
+    display: flex;
+    gap: 0.5rem;
+}
+
+#subscribe-email input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#subscribe-submit button {
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #3f4144;
+    line-height: 1.2;
+    padding: 10px 1rem;
+    background: #fda13a;
+    border: 1px solid #1a1a1a;
+    border-radius: 5px;
+    filter: drop-shadow(2px 2px 0 #fff);
+    outline: none;
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+}
+
+#subscribe-submit button:hover {
+    filter: drop-shadow(4px 4px 0 #fff);
+}
+
+@media screen and (max-width: 768px) {
+    .jetpack_subscription_widget {
+        flex-direction: column;
+    }
+}
