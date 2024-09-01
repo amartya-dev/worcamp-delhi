@@ -1507,6 +1507,7 @@
 
 /* Footer Links Section */
 .footer-links {
+    margin-top: 2%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
