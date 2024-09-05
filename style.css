@@ -1555,6 +1555,11 @@
     color: #fff;
 }
 
+.nav-links a {
+    color: white;
+    font-size: 14px;
+    padding-top: 2%;
+}
 
 /* Misc - Pahwa */
 #form-sticky {
