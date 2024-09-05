@@ -1595,9 +1595,15 @@
   width: 70px; /* Adjust as needed */
   height: auto;
 }
+#subli
+{
+	margin-top: -20px;
+	color: #25648f;
+}
 .left-aligned-separator {
   margin: 20px 0;
   margin-right: auto;
   margin-left: 0;
   border: none;
+   border-top: 1px solid #000;  /* Adjust color and thickness as needed */
 }
