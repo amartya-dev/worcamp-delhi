@@ -1586,9 +1586,18 @@
 
 #speakhead {
   margin-right: 10px; /* Adds some space between text and image */
+	font-family: var(--wp--preset--font-family--system-sans-serif) !important;
+	color: #25648f;
+	font-weight:bold;
 }
 
 #speakimg {
-  width: 50px; /* Adjust as needed */
+  width: 70px; /* Adjust as needed */
   height: auto;
+}
+.left-aligned-separator {
+  margin: 20px 0;
+  margin-right: auto;
+  margin-left: 0;
+  border: none;
 }
