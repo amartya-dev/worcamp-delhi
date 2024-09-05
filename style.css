@@ -1564,6 +1564,12 @@
     color: white;
     font-size: 14px;
     padding-top: 2%;
+    text-decoration: none;
+    opacity: 50%;
+}
+
+.nav-links a:hover {
+    opacity: 100%;
 }
 
 /* Misc - Pahwa */
