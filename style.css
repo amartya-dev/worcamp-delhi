@@ -152,7 +152,7 @@
 	 .wcd__hero {
 		 background-position: 90% 100%;
 		 padding: 4rem 1rem;
-         background-size: contain;
+         background-size: contain !important;
          background-repeat: no-repeat;
          background-color: #EBF3F3;
 	}
@@ -532,7 +532,7 @@
     
         background-position: 90% 100%;
         background-color: #EBF3F3;
-        background-size: contain;
+        background-size: contain !important;
         background-repeat: no-repeat;
     }
 
