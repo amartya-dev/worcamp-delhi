@@ -1559,6 +1559,6 @@
 /* Misc - Pahwa */
 #form-sticky {
     position: sticky;
-    top: 20px; /* Adjust the top offset as needed */
+    top: 120px; /* Adjust the top offset as needed */
     z-index: 10; /* Ensures it stays on top of other elements */
 }
