@@ -1285,7 +1285,7 @@
 
     .why-section {
         padding-bottom: 130%;
-	    background: #ebf3f3;
+	
     }
 
     .sponsor-info-section {
@@ -1477,6 +1477,7 @@
 
 .pillar-middle-section {
     padding-left: 2%;
+	margin-top: 50px;
 }
 
 .footer-place {
@@ -1490,7 +1491,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
