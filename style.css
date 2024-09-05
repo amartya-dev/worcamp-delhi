@@ -1578,3 +1578,17 @@
     top: 120px; /* Adjust the top offset as needed */
     z-index: 10; /* Ensures it stays on top of other elements */
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+#speakhead {
+  margin-right: 10px; /* Adds some space between text and image */
+}
+
+#speakimg {
+  width: 50px; /* Adjust as needed */
+  height: auto;
+}
