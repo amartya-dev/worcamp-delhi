@@ -150,7 +150,7 @@
 /* Hero Mobile */
  @media screen and (max-width: 767px) {
 	 .wcd__hero {
-		 background-position: 90% 100%;
+		 background-position: 90% 75%;
 		 padding: 4rem 1rem;
          background-size: contain !important;
          background-repeat: no-repeat;
