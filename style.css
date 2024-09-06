@@ -1286,6 +1286,25 @@ align-content: center;
 	margin-top: 20%;
 }
 
+
+	div.alignfull:nth-child(1)
+	{
+
+margin-top: 0;
+  margin-bottom: 0;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-image: url('https://delhi.wordcamp.org/2024/files/2024/05/wcd__hero.png');
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 80px;
+  background-color: #ebf3f3;
+
+	}
+
+
+
 	.wc-header
 
 	{
@@ -1799,5 +1818,12 @@ align-content: center;
   display: flex;
   flex-flow: column;
 	text-align: center;
+
+}
+
+
+div.alignfull:nth-child(1)
+{
+
 
 }
