@@ -1649,7 +1649,7 @@ width: 80%;
 		display:none !important;
 	}
 	.footer-links-section {
-flex-direction: column;
+flex-direction: row;
 	}
 }
 
