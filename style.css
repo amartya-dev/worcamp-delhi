@@ -1964,11 +1964,6 @@ outline:none;
     }
 }
 
-.footer-links-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 .wp-block-jetpack-subscriptions__supports-newline {
     z-index: 20;
