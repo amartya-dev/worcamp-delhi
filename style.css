@@ -1636,7 +1636,7 @@ margin-left:0 !important;
 
 .sponsor-info-section
 	{
-flex-direction: row;
+flex-direction: column;
 	}
 	.sponsor-info-card::before, wp-block-jetpack-subscriptions__form-elements {
 display:none;
@@ -1675,6 +1675,22 @@ z-index:10;
 
 @media only screen and (max-width: 767px) and (orientation: landscape) {
 
-
+.sponsor-info-section
+	{
+flex-direction: column;
+	}
+	.sponsor-info-card::before, wp-block-jetpack-subscriptions__form-elements {
+display:none;
+	}
+	.sponsor-info-details {
+width: 80%;
+	}
+	.footer-links-section > img:nth-child(2), .footer-links-section > img:nth-child(4)
+	{
+		display:none!
+	}
+	.footer-links-section {
+flex-direction: column;
+	}
 
 }
