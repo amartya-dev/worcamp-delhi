@@ -1366,6 +1366,12 @@ display:none !important;
 margin-top:0% !important;
 	}
 
+	.pillar-middle-section
+
+	{
+text-align: center;
+	}
+
     .sponsor-info-section {
         flex-wrap: wrap;
     }
