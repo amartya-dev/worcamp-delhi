@@ -1032,7 +1032,7 @@
 .sponsor-info-card {
     position: relative;
     width: 350px;
-    height: 430px;
+    min-height: 430px;
     padding: 20px;
     background-color: white;
     border-radius: 10px;
@@ -1689,7 +1689,7 @@ width: 80% !important;
 		display:none !important;
 	}
 	.footer-links-section {
-flex-direction: column !important;
+flex-direction: row !important;
 	}
 	
   .why-section {
@@ -1713,6 +1713,15 @@ background-size: contain !important;
     background-repeat: no-repeat !important;
     min-height: 450px !important;
 
+	}
+	 .wcd__join {
+padding-left: 20% !important;
+    padding-right: 20% !important;
+
+	 }
+	.footer-subscribe
+	{
+display:none !important;
 	}
 	
 }
