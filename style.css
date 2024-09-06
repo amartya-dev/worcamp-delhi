@@ -1173,7 +1173,8 @@
 
 .footer-links-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    margin-top: -0.65% !important;
 }
 
 .train-image {
