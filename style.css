@@ -1656,5 +1656,13 @@ padding:0%;
 
 }
 
+	#hero
+	{
+margin-bottom: -100px;
+	}
+.lamp-image, .why-wordcamp-text, .why-hero-text
+	{
+z-index:10;
+	}
 	
 }
