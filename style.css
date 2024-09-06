@@ -1268,6 +1268,11 @@
         font-size: 24px;
     }
 
+	.nav-links
+	{
+display:none !important;
+	}
+
 	.wc-header-logo
 	{
 width: 60px;
