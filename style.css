@@ -1309,10 +1309,12 @@ margin-top: 0;
 
 #hero
 	{
+		
 background-size: contain !important;
     background-position: bottom !important;
     background-repeat: no-repeat !important;
     min-height: 450px !important;
+		
 
 	}
 
@@ -1850,8 +1852,10 @@ align-content: center;
 }
 
 
-div.alignfull:nth-child(1)
+#hero
 {
-
+margin-top: -10px !important;
 
 }
+
+
