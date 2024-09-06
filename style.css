@@ -1646,7 +1646,7 @@ width: 80%;
 	}
 	.footer-links-section > img:nth-child(2), .footer-links-section > img:nth-child(4)
 	{
-		display:none!
+		display:none !important;
 	}
 	.footer-links-section {
 flex-direction: column;
@@ -1672,46 +1672,46 @@ z-index:10;
 	
 }
 
-@media only screen and (max-width: 812px) and (min-height: 320px) and (max-height: 450px) {
+@media only screen and (max-width: 812px) and (orientation: landscape) {
 
 .sponsor-info-section
 	{
-flex-direction: column;
+flex-direction: column !important;
 	}
 	.sponsor-info-card::before, wp-block-jetpack-subscriptions__form-elements {
-display:none;
+display:none !important;
 	}
 	.sponsor-info-details {
-width: 80%;
+width: 80% !important;
 	}
 	.footer-links-section > img:nth-child(2), .footer-links-section > img:nth-child(4)
 	{
-		display:none!
+		display:none !important;
 	}
 	.footer-links-section {
-flex-direction: column;
+flex-direction: column !important;
 	}
 	
   .why-section {
 margin-top:100px !important;
-	  background-repeat: no-repeat;
-  background-position: bottom;
-  background-color: #ebf3f3;
-	  background-size: contain;
+	  background-repeat: no-repeat !important;
+  background-position: bottom !important;
+  background-color: #ebf3f3 !important;
+	  background-size: contain !important;
   }
 
 	
 .why-wordcamp-text {
 
-font-size: 1.8rem;
+font-size: 1.8rem !important;
 }
 
 #hero
 	{
 background-size: contain;
-		 background-position: bottom; /* Positions the image at the bottom */
- background-repeat: no-repeat; /* Prevents the image from repeating */
- height: 650px; /* Adjust the height as needed */
+		 background-position: bottom !important; /* Positions the image at the bottom */
+ background-repeat: no-repeat !important; /* Prevents the image from repeating */
+ height: 650px !important; /* Adjust the height as needed */
 
 	}
 	
