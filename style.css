@@ -1694,5 +1694,25 @@ flex-direction: column;
 	
   .why-section {
 margin-top:100px !important;
+	  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #ebf3f3;
+	  background-size: contain;
   }
+
+	
+.why-wordcamp-text {
+
+font-size: 1.8rem;
+}
+
+#hero
+	{
+background-size: contain;
+		 background-position: bottom; /* Positions the image at the bottom */
+ background-repeat: no-repeat; /* Prevents the image from repeating */
+ height: 650px; /* Adjust the height as needed */
+
+	}
+	
 }
