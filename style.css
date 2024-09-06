@@ -1290,8 +1290,11 @@
     }
 
     .why-section {
-        padding-bottom: 130%;
-	
+        padding-bottom: 40%;
+	background-size: contain;
+	    background-repeat: no-repeat;
+	    background-position: bottom;
+	    background-color: #ebf3f3;
     }
 
     .sponsor-info-section {
@@ -1659,7 +1662,7 @@ padding:0%;
 
 	#hero
 	{
-margin-bottom: -100px;
+margin-bottom: -100px !important;
 	}
 .lamp-image, .why-wordcamp-text, .why-hero-text
 	{
