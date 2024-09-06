@@ -1268,6 +1268,19 @@
         font-size: 24px;
     }
 
+	.wc-header-logo
+	{
+width: 60px;
+  height: auto;
+  border-radius: 50%;
+	}
+
+	.wc-header
+
+	{
+height: 50px;
+	}
+
     .why-number-text
 	{
 	font-size: 20px;
