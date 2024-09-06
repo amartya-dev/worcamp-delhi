@@ -1282,7 +1282,7 @@
 		display:none !important;
 	}
 	.footer-links-section {
-flex-direction: row !important;
+flex-direction: column !important;
 	}
 	.footer-subscribe
 	{
