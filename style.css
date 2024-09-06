@@ -1979,4 +1979,5 @@ margin-top:-10px !important;
     justify-content: center;
     display: flex;
     flex-direction: column;
+    margin-top: 0 !important;
 }
