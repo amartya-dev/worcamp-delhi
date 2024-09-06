@@ -211,6 +211,7 @@
  @media screen and (max-width: 767px) {
 	 .wcd__btn a {
 		 font-size: 12px;
+		 min-height: 40px;
 	}
 	 .wcd__btn a img {
 		 max-width: 1rem;
@@ -1772,6 +1773,8 @@ padding:0%;
 	#hero
 	{
 margin-bottom: -100px !important;
+		padding-left: 20px;
+    padding-right: 20px;
 	}
 .lamp-image, .why-wordcamp-text, .why-hero-text
 	{
