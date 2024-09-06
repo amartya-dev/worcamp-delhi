@@ -1632,6 +1632,7 @@ display:none !important;
   display: flex;
   align-items: center;
 	background-color: ebf3f3;
+	justify-content: center;
 }
 
 #speakheado {
@@ -1649,6 +1650,16 @@ display:none !important;
 {
 	margin-top: -20px;
 	color: #25648f;
+	text-align: center;
+}
+
+div.wp-block-columns:nth-child(2) > div:nth-child(1) > div:nth-child(1), div.wp-block-column:nth-child(2), div.wp-block-column:nth-child(3)
+
+{
+align-content: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column;
 }
 
 
