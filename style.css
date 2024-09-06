@@ -1870,7 +1870,8 @@ margin-top: -10px !important;
 
 .sidecol
 {
-justify-content: flex-start; /* If flexbox is used */
+justify-content: flex-start !important; 
 }
+
 
 
