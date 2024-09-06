@@ -1873,7 +1873,7 @@ margin-top: -10px !important;
 justify-content: flex-start !important; 
 }
 
-..wc-header-logo-container > a:nth-child(1)
+.wc-header-logo-container > a:nth-child(1)
 
 {
 outline:none;
