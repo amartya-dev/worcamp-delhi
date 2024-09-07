@@ -2009,23 +2009,6 @@ margin-top:-10px !important;
   background-color: #f2f2f2;
 }
 
-/* Desktop styles */
-.sponsorship-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.sponsorship-table th,
-.sponsorship-table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-
-.sponsorship-table th {
-  background-color: #f2f2f2;
-}
-
 /* Mobile styles */
 @media screen and (max-width: 767px) {
   .sponsorship-table thead {
@@ -2038,6 +2021,7 @@ margin-top:-10px !important;
   .sponsorship-table td {
     display: block;
     width: 100%;
+    box-sizing: border-box;
   }
   
   .sponsorship-table tr {
@@ -2055,6 +2039,7 @@ margin-top:-10px !important;
     min-height: 30px;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    hyphens: auto;
   }
   
   .sponsorship-table td:before {
@@ -2066,11 +2051,18 @@ margin-top:-10px !important;
     white-space: normal;
     text-align: left;
     font-weight: bold;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
   }
   
+  /* Tier name styling */
   .sponsorship-table tr:first-child td {
-    padding-left: 10px;
+    padding: 10px;
     font-weight: bold;
+    text-align: center;
+    font-size: 1.1em;
+    word-break: break-word;
   }
   
   .sponsorship-table tr:first-child td:before {
@@ -2083,13 +2075,6 @@ margin-top:-10px !important;
   .sponsorship-table tr:first-child td[data-label="Silver"] { background-color: #C0C0C0; color: #333; }
   .sponsorship-table tr:first-child td[data-label="Bronze"] { background-color: #CD7F32; color: #fff; }
   .sponsorship-table tr:first-child td[data-label="Startup"] { background-color: #4CAF50; color: #fff; }
-  
-  /* Adjust the first row (tier names) */
-  .sponsorship-table tr:first-child td {
-    text-align: center;
-    padding: 10px;
-    font-size: 1.1em;
-  }
   
   /* Add some spacing between sections */
   .sponsorship-table tr:not(:first-child) {
