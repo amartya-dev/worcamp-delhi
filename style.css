@@ -1976,3 +1976,11 @@ margin-top:-10px !important;
     flex-direction: column;
     margin-top: 0 !important;
 }
+
+.wp-container-core-navigation-is-layout-1 {
+    margin-right: 50%;
+}
+
+.wp-block-navigation__responsive-container-close {
+    color: white;
+}
