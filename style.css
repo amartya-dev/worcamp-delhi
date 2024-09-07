@@ -1996,17 +1996,24 @@ margin-top:-10px !important;
 .sponsorship-table {
   width: 100%;
   border-collapse: collapse;
+  margin-bottom: 1em;
 }
 
 .sponsorship-table th,
 .sponsorship-table td {
   border: 1px solid #ddd;
-  padding: 8px;
+  padding: 12px;
   text-align: left;
+  vertical-align: top;
 }
 
 .sponsorship-table th {
   background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.sponsorship-table tr:nth-child(even) {
+  background-color: #f8f8f8;
 }
 
 /* Mobile styles */
@@ -2047,18 +2054,19 @@ margin-top:-10px !important;
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
+    font-size: 1.1em;
   }
   
   /* Best For row styling */
   .sponsorship-table tr:first-child td {
     padding: 10px;
-    text-align: center;
+    text-align: left;
   }
   
-  .sponsorship-table tr:first-child td strong {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 1.2em;
+  .sponsorship-table tr:first-child td:first-child {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: center;
   }
   
   /* Add some spacing between sections */
@@ -2076,5 +2084,11 @@ margin-top:-10px !important;
   
   .sponsorship-table tr:not(:first-child) td:first-child:before {
     content: none;
+  }
+  
+  /* Adjust spacing for better readability */
+  .sponsorship-table td:not(:first-child) {
+    padding-left: 10px;
+    padding-top: 5px;
   }
 }
