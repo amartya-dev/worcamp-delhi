@@ -1992,12 +1992,17 @@ margin-top:-10px !important;
     color: white;
 }
 
+.sponsorship-table tr
+{
+background:white;
+}
+
 /* Desktop styles */
 .sponsorship-table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 1em;
-	background: white;
+	
   color: #25648f;
 }
 
