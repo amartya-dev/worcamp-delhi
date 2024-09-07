@@ -1957,43 +1957,7 @@ outline:none;
     .ham-menu-icon {
         display: none;
     }
-	/* table stacking */
-  table {
-    width: 100%;
-  }
-  
-  thead {
-    display: none;
-  }
-  
-  tr {
-    display: block;
-    margin-bottom: 1em;
-    border: 1px solid #ddd;
-  }
-  
-  td {
-    display: block;
-    text-align: right;
-    border-bottom: 1px dotted #ddd;
-    position: relative;
-    padding-left: 50%;
-  }
-  
-  td:last-child {
-    border-bottom: none;
-  }
-  
-  td:before {
-    content: attr(data-label);
-    position: absolute;
-    left: 6px;
-    width: 45%;
-    padding-right: 10px;
-    white-space: nowrap;
-    text-align: left;
-    font-weight: bold;
-  }
+	
 }
 
 
