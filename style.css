@@ -1957,9 +1957,7 @@ outline:none;
     .ham-menu-icon {
         display: none;
     }
-}
-
-/* table stacking */
+	/* table stacking */
   table {
     width: 100%;
   }
@@ -1996,6 +1994,9 @@ outline:none;
     text-align: left;
     font-weight: bold;
   }
+}
+
+
 
 
 
