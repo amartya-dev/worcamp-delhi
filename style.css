@@ -2033,7 +2033,7 @@ margin-top:-10px !important;
   
   .sponsorship-table td {
     position: relative;
-    padding: 10px 10px 10px 50%;
+    padding: 10px;
     text-align: left;
     border-bottom: 1px solid #ddd;
     min-height: 30px;
@@ -2044,37 +2044,22 @@ margin-top:-10px !important;
   
   .sponsorship-table td:before {
     content: attr(data-label);
-    position: absolute;
-    left: 6px;
-    width: 45%;
-    padding-right: 10px;
-    white-space: normal;
-    text-align: left;
+    display: block;
     font-weight: bold;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    hyphens: auto;
+    margin-bottom: 5px;
   }
   
-  /* Tier name styling */
+  /* Best For row styling */
   .sponsorship-table tr:first-child td {
     padding: 10px;
-    font-weight: bold;
     text-align: center;
-    font-size: 1.1em;
-    word-break: break-word;
   }
   
-  .sponsorship-table tr:first-child td:before {
-    content: none;
+  .sponsorship-table tr:first-child td strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2em;
   }
-  
-  /* Color coding for tiers */
-  .sponsorship-table tr:first-child td[data-label="Platinum"] { background-color: #E5E4E2; color: #333; }
-  .sponsorship-table tr:first-child td[data-label="Gold"] { background-color: #FFD700; color: #333; }
-  .sponsorship-table tr:first-child td[data-label="Silver"] { background-color: #C0C0C0; color: #333; }
-  .sponsorship-table tr:first-child td[data-label="Bronze"] { background-color: #CD7F32; color: #fff; }
-  .sponsorship-table tr:first-child td[data-label="Startup"] { background-color: #4CAF50; color: #fff; }
   
   /* Add some spacing between sections */
   .sponsorship-table tr:not(:first-child) {
