@@ -2008,12 +2008,7 @@ margin-top:-10px !important;
 }
 
 .sponsorship-table th {
-  background-color: #f2f2f2;
   font-weight: bold;
-}
-
-.sponsorship-table tr:nth-child(even) {
-  background-color: #f8f8f8;
 }
 
 /* Mobile styles */
@@ -2064,7 +2059,6 @@ margin-top:-10px !important;
   }
   
   .sponsorship-table tr:first-child td:first-child {
-    background-color: #f2f2f2;
     font-weight: bold;
     text-align: center;
   }
@@ -2076,7 +2070,6 @@ margin-top:-10px !important;
   
   /* Make the feature name stand out */
   .sponsorship-table tr:not(:first-child) td:first-child {
-    background-color: #f2f2f2;
     font-weight: bold;
     text-align: center;
     padding: 10px;
