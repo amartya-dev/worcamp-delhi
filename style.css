@@ -1978,7 +1978,10 @@ margin-top:-10px !important;
 }
 
 .wp-block-navigation__responsive-container-open {
-    margin-right: 50% !important;
+    margin-right: 100% !important;
+	border: 1px solid;
+  border-radius: 5px;
+	
 }
 
 .wp-block-navigation__responsive-container-close {
