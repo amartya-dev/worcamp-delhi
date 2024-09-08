@@ -1296,9 +1296,15 @@ align-content: center;
   display: flex;
   flex-flow: column;
 	text-align: center;
-	margin-top:20%;
+	margin-top:20% !important;
 
 }
+
+	.fircol
+
+	{
+margin-top:0% !important;
+	}
 
 
 	div.alignfull:nth-child(1)
@@ -1857,7 +1863,7 @@ padding-left: 20% !important;
 
 {
 align-content: center;
-  justify-content: center;
+ 
   display: flex;
   flex-flow: column;
 	text-align: center;
