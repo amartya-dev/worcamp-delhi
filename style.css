@@ -1306,6 +1306,11 @@ align-content: center;
 margin-top:0% !important;
 	}
 
+	.headorg
+	{
+margin-top:-20% !important;
+	}
+
 
 	div.alignfull:nth-child(1)
 	{
