@@ -2270,3 +2270,8 @@ background:white;
     width: 100%;
   }
 }
+
+.tix-has-dynamic-receipts {
+    padding-left: 5%;
+    padding-right: 5%;
+}
