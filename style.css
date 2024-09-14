@@ -2178,11 +2178,12 @@ background:white;
 
 .tix-js {
     max-width: none !important;
-    input[type="submit"] {
-        background: #FDA13A;
-        box-shadow: 2px 2px 0px 0px #25648F;
-        border: 1px solid #000000;
-    }
+}
+
+.tix-js input[type="submit"] {
+    background: #FDA13A;
+    box-shadow: 2px 2px 0px 0px #25648F;
+    border: 1px solid #000000;
 }
 
 /* Mobile styles */
