@@ -2174,6 +2174,10 @@ background:white;
   font-size: 16px;
 }
 
+.tix-js {
+    max-width: none !important;
+}
+
 /* Mobile styles */
 @media screen and (max-width: 767px) {
   .tix_tickets_table_wrap {
