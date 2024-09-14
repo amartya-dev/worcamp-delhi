@@ -2292,9 +2292,9 @@ background:white;
   .tix-column-remaining:before { content: "Remaining: " !important; }
   .tix-column-quantity:before { content: "Quantity: " !important; }
   .tix-column-per-ticket:before {content: "Price Per Ticket: " !important;}
-  .tix-row-total td :before {content: "Total: " !important;}
+  .tix-row-total td:before {content: "Total: " !important;}
 
-  .tix-row-total :first-child td {
+  td:first-child .tix-row-total {
     display: none !important;
   }
 
