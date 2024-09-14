@@ -2294,7 +2294,7 @@ background:white;
   .tix-column-per-ticket:before {content: "Price Per Ticket: " !important;}
   .tix-row-total:before {content: "Total: " !important;}
 
-  .tix-row-total tr :first-child td {
+  .tix-row-total :first-child td {
     display: none !important;
   }
 
