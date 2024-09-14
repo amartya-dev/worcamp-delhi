@@ -2325,3 +2325,9 @@ background:white;
     border-color: #E8E8E8;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 767px) {
+    .micro-sponsor-para {
+        padding-top: 20%;
+    }
+}
