@@ -2134,6 +2134,7 @@ background:white;
 
 .tix_tickets_table th {
   background-color: white;
+  font-weight: normal !important;
   color: #25648F !important;
 }
 
