@@ -2274,6 +2274,10 @@ background:white;
     text-transform: capitalize;
   }
 
+  .tix-attendee-form td:before {
+    display: none;
+  }
+
   .tix_tickets_table td:before {
     position: relative !important;
   }
@@ -2306,6 +2310,15 @@ background:white;
 
   .tix_tickets_table + p input[type="submit"] {
     width: 100%;
+  }
+
+  /* Mobile css for the tix column order summary stuff */
+  .tix-column-description {
+    width: 100%;
+  }
+
+  .tix-row-total {
+    display: hidden;
   }
 }
 
