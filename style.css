@@ -2278,7 +2278,7 @@ background:white;
     display: none;
   }
 
-  .tix-attendee-form.tix-left {
+  .tix-attendee-form.tix-row-first-name.tix-left {
     width: 100% !important;
   }
 
