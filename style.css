@@ -2106,18 +2106,29 @@ background:white;
 }
 
 
+/* CampTix table container */
+.tix_tickets_table_wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 /* CampTix table styles */
 .tix_tickets_table {
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-spacing: 0;
   margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .tix_tickets_table th,
 .tix_tickets_table td {
-  border: 1px solid #ddd;
-  padding: 12px;
+  padding: 12px 15px;
   text-align: left;
+  border-bottom: 1px solid #ddd;
 }
 
 .tix_tickets_table th {
@@ -2125,33 +2136,49 @@ background:white;
   font-weight: bold;
 }
 
+.tix_tickets_table tr:last-child td {
+  border-bottom: none;
+}
+
 .tix-ticket-title {
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .tix-ticket-excerpt {
   font-size: 0.9em;
   color: #666;
+  margin-top: 5px;
 }
 
 .tix-column-quantity select {
   width: 100%;
   max-width: 100px;
+  padding: 5px;
 }
 
 /* Submit button styling */
+.tix_tickets_table + p {
+  text-align: right;
+  margin-top: 20px;
+}
+
 .tix_tickets_table + p input[type="submit"] {
-  float: right;
   cursor: pointer;
   padding: 10px 20px;
   background-color: #0073aa;
   color: white;
   border: none;
   border-radius: 4px;
+  font-size: 16px;
 }
 
 /* Mobile styles */
 @media screen and (max-width: 767px) {
+  .tix_tickets_table_wrap {
+    padding: 10px;
+  }
+
   .tix_tickets_table,
   .tix_tickets_table tbody,
   .tix_tickets_table tr,
@@ -2167,7 +2194,7 @@ background:white;
   }
 
   .tix_tickets_table tr {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -2176,7 +2203,7 @@ background:white;
   .tix_tickets_table td,
   .tix_tickets_table th {
     position: relative;
-    padding-left: 50%;
+    padding: 10px 10px 10px 50%;
     text-align: right;
     border: none;
     border-bottom: 1px solid #ddd;
@@ -2207,7 +2234,7 @@ background:white;
 
   .tix-column-description {
     text-align: left;
-    padding-left: 12px;
+    padding: 10px;
   }
 
   .tix-column-quantity select {
@@ -2218,11 +2245,10 @@ background:white;
   /* Adjust submit button for mobile */
   .tix_tickets_table + p {
     text-align: center;
+    margin-top: 15px;
   }
 
   .tix_tickets_table + p input[type="submit"] {
-    float: none;
     width: 100%;
-    margin-top: 20px;
   }
 }
