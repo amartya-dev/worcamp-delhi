@@ -2273,10 +2273,10 @@ background:white;
     content: attr(class) ": ";
   }
 
-  .tix-column-description:before { content: "Description: "; }
-  .tix-column-price:before { content: "Price: "; }
-  .tix-column-remaining:before { content: "Remaining: "; }
-  .tix-column-quantity:before { content: "Quantity: "; }
+  .tix-column-description:before { content: "Description: " !important; }
+  .tix-column-price:before { content: "Price: " !important; }
+  .tix-column-remaining:before { content: "Remaining: " !important; }
+  .tix-column-quantity:before { content: "Quantity: " !important; }
 
   .tix-column-description {
     text-align: left;
