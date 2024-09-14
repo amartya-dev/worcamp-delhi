@@ -2230,7 +2230,7 @@ background:white;
   .tix_tickets_table td,
   .tix_tickets_table th {
     display: block;
-    width: 100%;
+    width: 100% !important;
     box-sizing: border-box;
   }
 
@@ -2276,14 +2276,6 @@ background:white;
 
   .tix-attendee-form td:before {
     display: none;
-  }
-
-  .tix-attendee-form.tix-row-first-name.tix-left {
-    width: 100% !important;
-  }
-
-  .tix-attendee-form.tix-right {
-    width: 100% !important;
   }
 
   .tix_tickets_table td:before {
