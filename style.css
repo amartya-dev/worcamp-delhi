@@ -2292,6 +2292,11 @@ background:white;
   .tix-column-remaining:before { content: "Remaining: " !important; }
   .tix-column-quantity:before { content: "Quantity: " !important; }
   .tix-column-per-ticket:before {content: "Price Per Ticket: " !important;}
+  .tix-row-total:before {content: "Total: " !important;}
+
+  .tix-row-total tr :first-child td {
+    display: none !important;
+  }
 
   .tix-column-description {
     text-align: left;
@@ -2316,10 +2321,6 @@ background:white;
   /* Mobile css for the tix column order summary stuff */
   .tix-column-description {
     width: 100%;
-  }
-
-  .tix-row-total {
-    display: none !important;
   }
 }
 
