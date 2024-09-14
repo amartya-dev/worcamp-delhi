@@ -2305,6 +2305,12 @@ background:white;
     background-color: #ebf3f3 !important;
 }
 
+#tix {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #ebf3f3 !important;
+}
+
 .tix-right input { 
     padding: 2%;
 }
