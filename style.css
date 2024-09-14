@@ -2181,9 +2181,10 @@ background:white;
 }
 
 .tix-js input[type="submit"] {
-    background: #FDA13A;
-    box-shadow: 2px 2px 0px 0px #25648F;
-    border: 1px solid #000000;
+    background-color: #FDA13A !important;
+    box-shadow: 2px 2px 0px 0px #25648F !important;
+    border: 1px solid #000000 !important;
+    color: black !important;
 }
 
 /* Mobile styles */
