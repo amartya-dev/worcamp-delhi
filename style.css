@@ -2124,6 +2124,23 @@ background:white;
     border-radius: 8px;
     overflow: hidden;
 }
+.tix-ticket-form th,
+.tix-ticket-form td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color: white !important;
+}
+
+.ttix-ticket-form th {
+  background-color: white;
+  font-weight: normal !important;
+  color: #25648F !important;
+}
+
+.tix-ticket-form tr:last-child td {
+  border-bottom: none;
+}
 
 /* CampTix table styles */
 .tix_tickets_table {
