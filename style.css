@@ -2255,6 +2255,12 @@ background:white;
     background-color: white !important;
   }
 
+  .tix_tickets_table td {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .tix_tickets_table td:before,
   .tix_tickets_table th:before {
     content: attr(class);
@@ -2266,6 +2272,10 @@ background:white;
     text-align: left;
     font-weight: bold;
     text-transform: capitalize;
+  }
+
+  .tix_tickets_table td:before {
+    position: relative !important;
   }
 
   .tix_tickets_table td:before {
