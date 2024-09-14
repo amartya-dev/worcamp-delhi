@@ -2279,3 +2279,12 @@ background:white;
 .tix-right input { 
     padding: 2%;
 }
+
+.tix-right select {
+    width: 35%;
+    max-width: 100px;
+    padding: 5px;
+    background-color: #E8E8E8;
+    border-color: #E8E8E8;
+    border-radius: 10px;
+}
