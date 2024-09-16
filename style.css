@@ -2576,6 +2576,7 @@ background:white;
     width: unset !important;
     height: 200px !important;
     margin-bottom: 4%;
+    border-radius: 50% !important;
 }
 
 #tix-attendees ul {
