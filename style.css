@@ -2572,6 +2572,10 @@ background:white;
     margin-bottom: 4%;
 }
 
+#tix-attendees ul {
+    padding-left: inherit;
+}
+
 #tix-attendees .tix-field {
     margin-left: unset !important;
 }
