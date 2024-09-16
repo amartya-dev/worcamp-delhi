@@ -2556,6 +2556,7 @@ background:white;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 #tix-attendees .tix-field {
