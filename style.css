@@ -2549,3 +2549,14 @@ background:white;
     }
 }
 /* ending for sponser page */
+
+/* attendees page */
+#tix-attendees .tix-columns-3 li {
+    margin-top: 9%;
+
+}
+
+#tix-attendees .avatar {
+    width: unset !important;
+    height: unset !important;
+}
