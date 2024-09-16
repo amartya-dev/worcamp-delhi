@@ -2554,6 +2554,7 @@ background:white;
 #tix-attendees .tix-columns-3 li {
     height: 300px;
     width: 300px;
+    margin-left: 2%;
     padding: 1%;
     background-color: white;
     border-radius: 10px;
@@ -2568,6 +2569,7 @@ background:white;
 #tix-attendees .avatar {
     width: unset !important;
     height: 200px !important;
+    margin-bottom: 2%;
 }
 
 #tix-attendees .tix-field {
