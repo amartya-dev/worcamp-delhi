@@ -2586,3 +2586,8 @@ background:white;
 #tix-attendees .tix-field {
     margin-left: unset !important;
 }
+
+.tix-field tix-attendee-name {
+    font-weight: 600;
+    font-size: 20px;
+}
