@@ -2569,7 +2569,7 @@ background:white;
 #tix-attendees .avatar {
     width: unset !important;
     height: 200px !important;
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
 
 #tix-attendees .tix-field {
