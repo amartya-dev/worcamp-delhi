@@ -2553,7 +2553,7 @@ background:white;
 /* attendees page */
 #tix-attendees .tix-columns-3 li {
     height: 300px;
-    width: 300px;
+    width: 20%;
     margin-left: 2%;
     padding: 1%;
     background-color: white;
