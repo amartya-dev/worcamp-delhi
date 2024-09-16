@@ -2566,6 +2566,12 @@ background:white;
     align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+    #tix-attendees .tix-columns-3 li {
+        width: 100% !important;
+    }
+}
+
 #tix-attendees .avatar {
     width: unset !important;
     height: 200px !important;
