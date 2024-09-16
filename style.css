@@ -2553,10 +2553,11 @@ background:white;
 /* attendees page */
 #tix-attendees .tix-columns-3 li {
     margin-top: 9%;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#tix-attendees .avatar {
-    width: unset !important;
-    height: unset !important;
+#tix-attendees .tix-field {
+    margin-left: unset !important;
 }
