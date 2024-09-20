@@ -1688,7 +1688,7 @@ text-align: center;
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:flex-start;
 }
 
 #speakhead {
