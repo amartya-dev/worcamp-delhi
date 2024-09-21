@@ -2376,6 +2376,7 @@ background:white;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+	padding-top:3%;
 }
 @media screen and (max-width: 768px) {
     #tix-attendees .tix-columns-3 li {
