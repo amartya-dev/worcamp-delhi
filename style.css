@@ -2404,7 +2404,6 @@ background:white;
     font-size: 20px !important;
 }
 
-
 /* General Styles */
 .anup-header-style-1 {
     background: #D3E7E9;
@@ -2435,7 +2434,8 @@ background:white;
 .anup-block-platinum-sponsors,
 .anup-block-gold-sponsors,
 .anup-block-silver-sponsors,
-.anup-block-bronze-sponsors {
+.anup-block-bronze-sponsors,
+.anup-block-micro-sponsors {
     padding: 40px;
     margin: 0px;
 }
@@ -2443,7 +2443,8 @@ background:white;
 .anup-block-platinum-sponsors h2,
 .anup-block-gold-sponsors h2,
 .anup-block-silver-sponsors h2,
-.anup-block-bronze-sponsors h2 {
+.anup-block-bronze-sponsors h2,
+.anup-block-micro-sponsors h2 {
     width: 100%;
     text-align: center;
     margin-bottom: 40px;
@@ -2485,9 +2486,9 @@ background:white;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none; /* Remove underline from links */
-    color: inherit; /* Inherit text color */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* Hover effect for sponsor boxes */
@@ -2517,7 +2518,7 @@ background:white;
     border-radius: 10px;
 }
 
-/* Text content styles (for Gold sponsors) */
+/* Text content styles (for Platinum and Gold sponsors) */
 .anup-eachLogo-style-1 .anup-logo-style-1__right {
     flex: 0 1 66%;
     text-align: left;
@@ -2541,59 +2542,49 @@ background:white;
     display: none; /* Hide description for Silver and Bronze sponsors */
 }
 
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-    /* Stack sponsors vertically on mobile */
-    .anup-logo-row-style-1--grid-2,
-    .anup-logo-row-style-1--grid-3,
-    .anup-logo-row-style-1--grid-4,
-    .anup-logo-row-style-1--grid-5 {
-        flex: 0 1 100%;
-        margin-bottom: 15px;
-    }
-
-    .anup-eachLogo-style-1 .anup-logo-style-1__left img {
-        padding-left: 0;
-    }
-
-    .anup-eachLogo-style-1 .anup-logo-style-1__right h3 {
-        margin: 10px 0;
-    }
-
-    .anup-eachLogo-style-1__wrapper {
-        flex-direction: column;
-    }
-
-    .anup-bg-light {
-        width: 100%;
-    }
-
-    .anup-header-style-1 {
-        padding: 20px 40px 40px 40px;
-    }
+/* Platinum Sponsor Specific Styles */
+.anup-platinum-sponsor {
+    flex-basis: 100% !important;
+    max-width: 800px;
+    margin: 20px auto !important;
+    padding: 30px !important;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-.page-slug-2085{
-	background:#eaf3f3;
+.anup-platinum-sponsor .anup-eachLogo-style-1__wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
+.anup-platinum-sponsor .anup-logo-style-1__left {
+    flex: 0 1 auto;
+    margin-bottom: 20px;
+}
+
+.anup-platinum-sponsor .anup-logo-style-1__left img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+
+.anup-platinum-sponsor .anup-logo-style-1__right {
+    flex: 0 1 auto;
+    padding-left: 0;
+}
+
+.anup-platinum-sponsor .anup-logo-style-1__right h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.anup-platinum-sponsor .anup-logo-style-1__right p {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
 
 /* Micro Sponsors Styles */
-.anup-block-micro-sponsors {
-    padding: 40px;
-    margin: 0;
-    text-align: center;
-}
-
-.anup-block-micro-sponsors h2 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 40px;
-    color: #25648F;
-    font-size: 25px;
-    margin-top: 40px;
-}
-
 .anup-micro-sponsors-list {
     list-style-type: none;
     padding: 0;
@@ -2630,8 +2621,48 @@ background:white;
     margin-top: 5px;
 }
 
-/* Responsive design for micro sponsors */
+/* Responsive Design */
 @media screen and (max-width: 768px) {
+    .anup-logo-row-style-1--grid-2,
+    .anup-logo-row-style-1--grid-3,
+    .anup-logo-row-style-1--grid-4,
+    .anup-logo-row-style-1--grid-5 {
+        flex: 0 1 100%;
+        margin-bottom: 15px;
+    }
+
+    .anup-eachLogo-style-1 .anup-logo-style-1__left img {
+        padding-left: 0;
+    }
+
+    .anup-eachLogo-style-1 .anup-logo-style-1__right h3 {
+        margin: 10px 0;
+    }
+
+    .anup-eachLogo-style-1__wrapper {
+        flex-direction: column;
+    }
+
+    .anup-bg-light {
+        width: 100%;
+    }
+
+    .anup-header-style-1 {
+        padding: 20px 40px 40px 40px;
+    }
+
+    .anup-platinum-sponsor .anup-logo-style-1__left img {
+        max-width: 250px;
+    }
+
+    .anup-platinum-sponsor .anup-logo-style-1__right h3 {
+        font-size: 22px;
+    }
+
+    .anup-platinum-sponsor .anup-logo-style-1__right p {
+        font-size: 14px;
+    }
+
     .anup-micro-sponsors-list {
         flex-direction: column;
         align-items: center;
@@ -2642,3 +2673,8 @@ background:white;
         max-width: 300px;
     }
 }
+
+.page-slug-2085{
+	background:#eaf3f3;
+}
+
