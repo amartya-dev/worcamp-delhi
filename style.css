@@ -2366,7 +2366,7 @@ background:white;
 #tix-attendees .tix-columns-3 li {
     height: 350px;
     width: 20%;
-   
+    margin-left: 2%;
     padding: 1%;
     background-color: white;
     border-radius: 10px;
@@ -2376,7 +2376,6 @@ background:white;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-	padding-top:3%;
 }
 @media screen and (max-width: 768px) {
     #tix-attendees .tix-columns-3 li {
