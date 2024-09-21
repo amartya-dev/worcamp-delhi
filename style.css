@@ -2518,7 +2518,7 @@ background:white;
     border-radius: 10px;
 }
 
-/* Text content styles (for Platinum and Gold sponsors) */
+/* Text content styles (for Gold sponsors) */
 .anup-eachLogo-style-1 .anup-logo-style-1__right {
     flex: 0 1 66%;
     text-align: left;
@@ -2542,46 +2542,46 @@ background:white;
     display: none; /* Hide description for Silver and Bronze sponsors */
 }
 
-/* Platinum Sponsor Specific Styles */
+/* Platinum Sponsor Styles */
 .anup-platinum-sponsor {
-    flex-basis: 100% !important;
-    max-width: 800px;
-    margin: 20px auto !important;
-    padding: 30px !important;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    flex-basis: calc(50% - 20px) !important; /* Two sponsors per row with some gap */
+    max-width: 600px; /* Maximum width to prevent stretching on large screens */
+    margin: 10px !important; /* Space between sponsors */
+    padding: 30px !important; /* Increase padding for a more spacious look */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Add a subtle shadow for emphasis */
 }
 
 .anup-platinum-sponsor .anup-eachLogo-style-1__wrapper {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    flex-direction: column; /* Stack logo and text vertically */
+    align-items: center; /* Center align content */
+    text-align: center; /* Center align text */
 }
 
 .anup-platinum-sponsor .anup-logo-style-1__left {
-    flex: 0 1 auto;
-    margin-bottom: 20px;
+    flex: 0 1 auto; /* Allow the logo to size naturally */
+    margin-bottom: 20px; /* Space between logo and text */
 }
 
 .anup-platinum-sponsor .anup-logo-style-1__left img {
-    max-width: 300px;
-    width: 100%;
-    height: auto;
+    max-width: 250px; /* Larger logo size */
+    width: 100%; /* Full width up to max-width */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .anup-platinum-sponsor .anup-logo-style-1__right {
-    flex: 0 1 auto;
-    padding-left: 0;
+    flex: 0 1 auto; /* Allow content to size naturally */
+    padding-left: 0; /* Remove left padding as it's now centered */
 }
 
 .anup-platinum-sponsor .anup-logo-style-1__right h3 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 22px; /* Larger font size for sponsor name */
+    margin-bottom: 10px; /* Space between name and description */
 }
 
 .anup-platinum-sponsor .anup-logo-style-1__right p {
-    font-size: 16px;
-    max-width: 600px;
-    margin: 0 auto;
+    font-size: 16px; /* Slightly larger font size for description */
+    max-width: 500px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the paragraph text */
 }
 
 /* Micro Sponsors Styles */
@@ -2622,6 +2622,12 @@ background:white;
 }
 
 /* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .anup-platinum-sponsor {
+        flex-basis: calc(100% - 20px) !important; /* Full width on smaller screens */
+    }
+}
+
 @media screen and (max-width: 768px) {
     .anup-logo-row-style-1--grid-2,
     .anup-logo-row-style-1--grid-3,
@@ -2652,11 +2658,11 @@ background:white;
     }
 
     .anup-platinum-sponsor .anup-logo-style-1__left img {
-        max-width: 250px;
+        max-width: 200px; /* Slightly smaller on mobile */
     }
 
     .anup-platinum-sponsor .anup-logo-style-1__right h3 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .anup-platinum-sponsor .anup-logo-style-1__right p {
