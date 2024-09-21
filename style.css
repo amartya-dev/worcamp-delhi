@@ -2571,19 +2571,21 @@ background:white;
 .anup-platinum-sponsor .anup-logo-style-1__right {
     flex: 0 1 auto; /* Allow content to size naturally */
     padding-left: 0; /* Remove left padding as it's now centered */
+    text-align: center; /* Ensure all text, including the name, is center-aligned */
 }
 
 .anup-platinum-sponsor .anup-logo-style-1__right h3 {
-
+    font-size: 22px; /* Larger font size for sponsor name */
     margin-bottom: 10px; /* Space between name and description */
+    text-align: center; /* Explicitly center-align the sponsor name */
 }
 
 .anup-platinum-sponsor .anup-logo-style-1__right p {
-
+    font-size: 16px; /* Slightly larger font size for description */
     max-width: 500px; /* Limit width for better readability */
     margin: 0 auto; /* Center the paragraph text */
+    text-align: center; /* Ensure description is also center-aligned */
 }
-
 /* Micro Sponsors Styles */
 .anup-micro-sponsors-list {
     list-style-type: none;
