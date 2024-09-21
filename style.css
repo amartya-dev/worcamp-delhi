@@ -2389,7 +2389,9 @@ background:white;
     margin-bottom: 4%;
     border-radius: 50% !important;
 }
-
+#tix-attendees ul {
+    padding-left: 0%;
+}
 #tix-attendees .tix-field {
     margin-left: unset !important;
 }
@@ -2721,4 +2723,3 @@ background:white;
 .page-slug-2085{
 	background:#eaf3f3;
 }
-
