@@ -2576,3 +2576,69 @@ background:white;
 .page-slug-2085{
 	background:#eaf3f3;
 }
+
+
+/* Micro Sponsors Styles */
+.anup-block-micro-sponsors {
+    padding: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+.anup-block-micro-sponsors h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #25648F;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.anup-micro-sponsors-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.anup-micro-sponsors-list li {
+    margin: 10px;
+}
+
+.anup-micro-sponsor-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.anup-micro-sponsor-link:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-3px);
+}
+
+.anup-micro-sponsor-x {
+    display: block;
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Responsive design for micro sponsors */
+@media screen and (max-width: 768px) {
+    .anup-micro-sponsors-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .anup-micro-sponsor-link {
+        width: 100%;
+        max-width: 300px;
+    }
+}
