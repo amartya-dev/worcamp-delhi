@@ -2431,7 +2431,7 @@ background:white;
     line-height: 1.3;
 }
 
-/* Common Sponsor Block Styles */
+/* Sponsor Blocks */
 .anup-block-platinum-sponsors,
 .anup-block-gold-sponsors,
 .anup-block-silver-sponsors,
@@ -2440,7 +2440,6 @@ background:white;
     margin: 0px;
 }
 
-/* Sponsor Block Headers */
 .anup-block-platinum-sponsors h2,
 .anup-block-gold-sponsors h2,
 .anup-block-silver-sponsors h2,
@@ -2453,14 +2452,13 @@ background:white;
     margin-top: 40px;
 }
 
-/* Background for sponsor sections */
 .anup-bg-light {
     background: #EBF3F3;
     width: 80%;
     margin: 0 auto;
 }
 
-/* Logo Row Layout */
+/* Logo Row Styles */
 .anup-logo-row-style-1 {
     padding: 0;
     margin: 0;
@@ -2470,12 +2468,12 @@ background:white;
 }
 
 /* Grid layouts for different sponsor levels */
-.anup-logo-row-style-1--grid-2 { flex: 0 1 48%; } /* Platinum sponsors: 2 per row */
-.anup-logo-row-style-1--grid-3 { flex: 0 1 31%; } /* Gold sponsors: 3 per row */
-.anup-logo-row-style-1--grid-4 { flex: 0 1 23%; } /* Silver sponsors: 4 per row */
-.anup-logo-row-style-1--grid-5 { flex: 0 1 18%; } /* Bronze sponsors: 5 per row */
+.anup-logo-row-style-1--grid-2 { flex: 0 1 48%; } /* Platinum sponsors */
+.anup-logo-row-style-1--grid-3 { flex: 0 1 31%; } /* Gold sponsors */
+.anup-logo-row-style-1--grid-4 { flex: 0 1 23%; } /* Silver sponsors */
+.anup-logo-row-style-1--grid-5 { flex: 0 1 18%; } /* Bronze sponsors */
 
-/* Individual Logo Box Styles */
+/* Individual Logo Styles */
 .anup-eachLogo-style-1 {
     box-sizing: border-box;
     text-align: center;
@@ -2487,9 +2485,17 @@ background:white;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
 }
 
-/* Wrapper for logo and description */
+/* Hover effect for sponsor boxes */
+.anup-eachLogo-style-1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
 .anup-eachLogo-style-1__wrapper {
     display: flex;
     align-items: center;
@@ -2511,7 +2517,7 @@ background:white;
     border-radius: 10px;
 }
 
-/* Description styles (for Platinum and Gold) */
+/* Text content styles (for Gold sponsors) */
 .anup-eachLogo-style-1 .anup-logo-style-1__right {
     flex: 0 1 66%;
     text-align: left;
@@ -2524,7 +2530,7 @@ background:white;
     margin-top: 0;
 }
 
-/* Silver and Bronze specific styles (logo only) */
+/* Silver and Bronze specific styles */
 .anup-logo-row-style-1--grid-4 .anup-logo-style-1__left,
 .anup-logo-row-style-1--grid-5 .anup-logo-style-1__left {
     flex: 1;
@@ -2532,12 +2538,12 @@ background:white;
 
 .anup-logo-row-style-1--grid-4 .anup-logo-style-1__right,
 .anup-logo-row-style-1--grid-5 .anup-logo-style-1__right {
-    display: none;
+    display: none; /* Hide description for Silver and Bronze sponsors */
 }
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
-    /* Stack all sponsor boxes vertically on small screens */
+    /* Stack sponsors vertically on mobile */
     .anup-logo-row-style-1--grid-2,
     .anup-logo-row-style-1--grid-3,
     .anup-logo-row-style-1--grid-4,
@@ -2546,27 +2552,22 @@ background:white;
         margin-bottom: 15px;
     }
 
-    /* Adjust logo padding */
     .anup-eachLogo-style-1 .anup-logo-style-1__left img {
         padding-left: 0;
     }
 
-    /* Adjust heading margin */
     .anup-eachLogo-style-1 .anup-logo-style-1__right h3 {
         margin: 10px 0;
     }
 
-    /* Stack logo and description vertically */
     .anup-eachLogo-style-1__wrapper {
         flex-direction: column;
     }
 
-    /* Full width background on small screens */
     .anup-bg-light {
         width: 100%;
     }
 
-    /* Adjust header padding */
     .anup-header-style-1 {
         padding: 20px 40px 40px 40px;
     }
