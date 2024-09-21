@@ -2674,6 +2674,50 @@ background:white;
     }
 }
 
+.anup-commitment-sponser{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 60%;
+    margin: 0 auto !important;
+}
+.anup-commitment-sponser h2{
+    margin:0px;
+    text-align:left;
+    font-weight: 600
+}
+.anup-commitment-sponser ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding:0px;
+}
+.anup-commitment-sponser ul li{
+    flex: 0 1 33%; 
+    list-style:none;
+
+}
+.anup-commitment-sponser ul li::before{
+    content:"✅ ";
+}
+
+@media screen and (max-width: 768px) {
+ .anup-commitment-sponser{
+        width:100%;
+    }
+    .anup-bg-light{
+        width:100%;
+    }
+    .anup-eachLogo-style-1__wrapper{
+        display:block;
+    }
+    .anup-commitment-sponser ul li{
+        flex: 0 1 49%; 
+    }
+
+
+}
+
+
 .page-slug-2085{
 	background:#eaf3f3;
 }
