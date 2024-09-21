@@ -2385,8 +2385,8 @@ background:white;
 }
 
 #tix-attendees .avatar {
-    width: unset !important;
-    height: 200px !important;
+    width: 50% !important;
+    height: auto !important;
     margin-bottom: 4%;
     border-radius: 50% !important;
 }
