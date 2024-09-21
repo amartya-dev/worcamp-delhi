@@ -2389,7 +2389,7 @@ background:white;
     border-radius: 50% !important;
 }
 #tix-attendees ul {
-    padding-left: inherit;
+    padding-left: 0%;
 }
 #tix-attendees .tix-field {
     margin-left: unset !important;
