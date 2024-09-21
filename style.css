@@ -2363,97 +2363,41 @@ background:white;
 
 
 /* attendees page */
-/* attendees page */
-#tix-attendees .tix-columns-3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    gap: 2%;
-    padding: 0 2%;
-}
-
 #tix-attendees .tix-columns-3 li {
-    height: auto;
-    min-height: 350px;
-    width: 18.4%;
-    margin-left: 0;
-    margin-bottom: 2%;
-    padding: 1.5%;
+    height: 350px;
+    width: 20%;
+    margin-left: 2%;
+    padding: 1%;
     background-color: white;
     border-radius: 10px;
-    border: 1px solid black;
+    border-style: solid;
+    border-color: black;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    overflow: hidden;
 }
-
+@media screen and (max-width: 768px) {
+    #tix-attendees .tix-columns-3 li {
+        width: 100% !important;
+    }
+}
 #tix-attendees .avatar {
     width: 50% !important;
     height: auto !important;
     margin-bottom: 4%;
     border-radius: 50% !important;
 }
-
 #tix-attendees ul {
-    padding-left: 0;
-    width: 100%;
+    padding-left: inherit;
 }
-
 #tix-attendees .tix-field {
-    margin-left: 0 !important;
-    text-align: center;
-    width: 100%;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+    margin-left: unset !important;
 }
-
 .tix-attendee-name {
     font-weight: 600 !important;
     font-size: 20px !important;
-    margin-bottom: 10px;
 }
-
-.tix-field.tix-how-would-you-describe-yourself {
-    font-size: 14px;
-    line-height: 1.4;
-    max-height: 100px;
-    overflow-y: auto;
-    padding: 0 5px;
-}
-
-@media screen and (max-width: 1024px) {
-    #tix-attendees .tix-columns-3 li {
-        width: 23.5%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    #tix-attendees .tix-columns-3 {
-        padding: 0 4%;
-    }
-
-    #tix-attendees .tix-columns-3 li {
-        width: 48%;
-        margin-bottom: 4%;
-    }
-
-    .tix-attendee-name {
-        font-size: 18px !important;
-    }
-
-    .tix-field.tix-how-would-you-describe-yourself {
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    #tix-attendees .tix-columns-3 li {
-        width: 100%;
-    }
-}
-
 /* General Styles */
 .anup-header-style-1 {
     background: #D3E7E9;
