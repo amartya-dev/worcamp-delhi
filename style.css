@@ -2493,17 +2493,18 @@ background:white;
 /* Wrapper for logo and description */
 .anup-eachLogo-style-1__wrapper {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-
 /* Logo styles */
 .anup-eachLogo-style-1 .anup-logo-style-1__left {
-    flex: 0 1 33%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .anup-eachLogo-style-1 .anup-logo-style-1__left img {
@@ -2512,17 +2513,21 @@ background:white;
     border-radius: 10px;
 }
 
-/* Description styles (for Platinum and Gold) */
+/* Description styles */
 .anup-eachLogo-style-1 .anup-logo-style-1__right {
-    flex: 0 1 66%;
-    text-align: left;
-    padding-left: 25px;
+    width: 100%;
+    text-align: center;
 }
 
 .anup-eachLogo-style-1 .anup-logo-style-1__right h3 {
     font-size: 20px;
     font-weight: 600;
     margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.anup-eachLogo-style-1 .anup-logo-style-1__right p {
+    margin: 0;
 }
 
 /* Silver and Bronze specific styles (logo only) */
