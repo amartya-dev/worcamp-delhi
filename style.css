@@ -2711,6 +2711,11 @@ background:white;
 
 }
 
+@media screen and (max-width: 768px) {
+    #tix-attendees .tix-columns-3 {
+        padding: 0 0% !important;
+    }
+
 
 
 
