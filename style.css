@@ -2358,197 +2358,9 @@ background:white;
     }
 }
 
-/* for sponser page - https://delhi.wordcamp.org/2024/?page_id=2085 */
-.anup-header-style-1 {
-    background: #D3E7E9;
-    padding: 40px 80px 80px 80px;
-    text-align: center;
-}
-
-.anup-header-style-1 h1, .anup-header-style-1 h2{
-    margin-right: 10px;
-    font-family: var(--wp--preset--font-family--rubik);
-    color: #25648f;
-    font-weight: 800;
-    width:100%;
-    margin-top: 40px;
-}
-
-.anup-header-style-1 p{
-    margin-right: 10px;
-    font-family:  var(--wp--preset--font-family--rubik);
-    color: #25648f;
-    font-weight: 400;
-    width:100%;
-    font-size:18px;
-    line-height:1.3;
-}
-
-.anup-block-platinum-sponsors {
-	padding: 40px;
-	margin:0px;
-}
-.anup-block-platinum-sponsors h2{
-	width:100%;
-	text-align:center;
-	margin-bottom: 40px;
-	color: #25648F;
-	font-size: 25px;
-    margin-top: 40px;
-}
-.anup-bg-light{
-	 background: #EBF3F3;
-     width: 80%;
-        margin: 0 auto;
-}
-
-.anup-logo-row-style-1 {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-.anup-logo-row-style-1--grid-2{
-    flex: 0 1 49%; 
-}
-.anup-logo-row-style-1--grid-3{
-    flex: 0 1 32%; 
-}
-.anup-eachLogo-style-1{
-    
-    box-sizing: border-box; /* Ensures padding and border are included in width calculation */
-    text-align: center;
-    background-color: white;
-    border: 1px solid #ddd;
-    margin: .5%;
-    padding:15px;
-    border-radius: 20px;
-}
 
 
 
-.anup-eachLogo-style-1 .anup-logo-style-1__left{
-   flex: 0 1 33%;
-}
-.anup-eachLogo-style-1 .anup-logo-style-1__left img{
-   max-width: 100%;
-   object-fit: cover;
-   object-position: top;
-   border-radius: 10px;
-}
-.anup-eachLogo-style-1 .anup-logo-style-1__right{
-   flex: 0 1 66%;
-   text-align:left;
-   padding-left: 25px;
-}
-.anup-eachLogo-style-1 .anup-logo-style-1__right h3{
-   font-size: 20px;
-   font-weight: 600;
-}
-
-.anup-eachLogo-style-1__wrapper {
-   display:flex;
-   align-items: flex-start;
-}
-
-.anup-sponsers-silver-grid {
-    grid-template-columns: repeat(5,1fr) !important;
-}
-.anup-sponsers-silver-grid .wordcamp-post-list__post a{
-    display: flex;
-}
-.anup-sponsers-silver-grid .wordcamp-post-list__post{
-    min-width: 20% !important;
-    background: white;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 50px;
-    border-radius: 10px;
-}
-
-
-
-.anup-sponsers-bronze-grid {
-    grid-template-columns: repeat(7,1fr) !important;
-}
-.anup-sponsers-bronze-grid .wordcamp-post-list__post a{
-    display: flex;
-}
-.anup-sponsers-bronze-grid .wordcamp-post-list__post{
-    min-width: 14% !important;
-    background: white;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 20px;
-    border-radius: 10px;
-}
-
-.anup-commitment-sponser{
-    background: white;
-    padding: 30px;
-    border-radius: 10px;
-    width: 60%;
-    margin: 0 auto !important;
-}
-.anup-commitment-sponser h2{
-	margin:0px;
-	text-align:left;
-	font-weight: 600
-}
-.anup-commitment-sponser ul{
-	display: flex;
-    flex-wrap: wrap;
-	padding:0px;
-}
-.anup-commitment-sponser ul li{
-	flex: 0 1 33%; 
-	list-style:none;
-	
-}
-
-.anup-commitment-sponser ul li::before{
-	content:"✅ ";
-}
-
-.page-slug-2085{
-	background:#eaf3f3;
-}
-
-@media screen and (max-width: 768px) {
-	.anup-logo-row-style-1--grid-2, .anup-logo-row-style-1--grid-3{
-		flex: 0 1 100%;
-		margin-bottom: 15px;
-        text-align: left;
-	}
-    .anup-eachLogo-style-1 .anup-logo-style-1__left img{
-        padding-left:25px;
-    }
-    .anup-eachLogo-style-1 .anup-logo-style-1__right h3{
-        margin:0px;
-    }
-	.anup-sponsers-bronze-grid, .anup-sponsers-silver-grid {
-	    grid-template-columns: repeat(2,1fr) !important;
-		grid-row-gap:10px !important;
-        padding: 0px;
-	}
-	.anup-commitment-sponser{
-		width:100%;
-	}
-	.anup-bg-light{
-		width:100%;
-	}
-	.anup-eachLogo-style-1__wrapper{
-		display:block;
-	}
-    .anup-commitment-sponser ul li{
-        flex: 0 1 49%; 
-    }
-}
-/* ending for sponser page */
 
 /* attendees page */
 #tix-attendees .tix-columns-3 li {
@@ -2590,4 +2402,177 @@ background:white;
 .tix-attendee-name {
     font-weight: 600 !important;
     font-size: 20px !important;
+}
+
+
+
+/* General Styles */
+.anup-header-style-1 {
+    background: #D3E7E9;
+    padding: 40px 80px 80px 80px;
+    text-align: center;
+}
+
+.anup-header-style-1 h1, .anup-header-style-1 h2 {
+    margin-right: 10px;
+    font-family: var(--wp--preset--font-family--rubik);
+    color: #25648f;
+    font-weight: 800;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.anup-header-style-1 p {
+    margin-right: 10px;
+    font-family: var(--wp--preset--font-family--rubik);
+    color: #25648f;
+    font-weight: 400;
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+/* Common Sponsor Block Styles */
+.anup-block-platinum-sponsors,
+.anup-block-gold-sponsors,
+.anup-block-silver-sponsors,
+.anup-block-bronze-sponsors {
+    padding: 40px;
+    margin: 0px;
+}
+
+/* Sponsor Block Headers */
+.anup-block-platinum-sponsors h2,
+.anup-block-gold-sponsors h2,
+.anup-block-silver-sponsors h2,
+.anup-block-bronze-sponsors h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #25648F;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+/* Background for sponsor sections */
+.anup-bg-light {
+    background: #EBF3F3;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Logo Row Layout */
+.anup-logo-row-style-1 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Grid layouts for different sponsor levels */
+.anup-logo-row-style-1--grid-2 { flex: 0 1 48%; } /* Platinum sponsors: 2 per row */
+.anup-logo-row-style-1--grid-3 { flex: 0 1 31%; } /* Gold sponsors: 3 per row */
+.anup-logo-row-style-1--grid-4 { flex: 0 1 23%; } /* Silver sponsors: 4 per row */
+.anup-logo-row-style-1--grid-5 { flex: 0 1 18%; } /* Bronze sponsors: 5 per row */
+
+/* Individual Logo Box Styles */
+.anup-eachLogo-style-1 {
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: .5%;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Wrapper for logo and description */
+.anup-eachLogo-style-1__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Logo styles */
+.anup-eachLogo-style-1 .anup-logo-style-1__left {
+    flex: 0 1 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anup-eachLogo-style-1 .anup-logo-style-1__left img {
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+/* Description styles (for Platinum and Gold) */
+.anup-eachLogo-style-1 .anup-logo-style-1__right {
+    flex: 0 1 66%;
+    text-align: left;
+    padding-left: 25px;
+}
+
+.anup-eachLogo-style-1 .anup-logo-style-1__right h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+/* Silver and Bronze specific styles (logo only) */
+.anup-logo-row-style-1--grid-4 .anup-logo-style-1__left,
+.anup-logo-row-style-1--grid-5 .anup-logo-style-1__left {
+    flex: 1;
+}
+
+.anup-logo-row-style-1--grid-4 .anup-logo-style-1__right,
+.anup-logo-row-style-1--grid-5 .anup-logo-style-1__right {
+    display: none;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Stack all sponsor boxes vertically on small screens */
+    .anup-logo-row-style-1--grid-2,
+    .anup-logo-row-style-1--grid-3,
+    .anup-logo-row-style-1--grid-4,
+    .anup-logo-row-style-1--grid-5 {
+        flex: 0 1 100%;
+        margin-bottom: 15px;
+    }
+
+    /* Adjust logo padding */
+    .anup-eachLogo-style-1 .anup-logo-style-1__left img {
+        padding-left: 0;
+    }
+
+    /* Adjust heading margin */
+    .anup-eachLogo-style-1 .anup-logo-style-1__right h3 {
+        margin: 10px 0;
+    }
+
+    /* Stack logo and description vertically */
+    .anup-eachLogo-style-1__wrapper {
+        flex-direction: column;
+    }
+
+    /* Full width background on small screens */
+    .anup-bg-light {
+        width: 100%;
+    }
+
+    /* Adjust header padding */
+    .anup-header-style-1 {
+        padding: 20px 40px 40px 40px;
+    }
+}
+
+.page-slug-2085{
+	background:#eaf3f3;
 }
