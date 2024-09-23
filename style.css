@@ -2716,6 +2716,11 @@ background:white;
     #tix-attendees .tix-columns-3 {
         padding: 0 0% !important;
     }
+	
+	.wp-block-navigation__submenu-container > li:nth-child(1) > a:nth-child(1), li.wp-block-navigation-link:nth-child(2) > a:nth-child(1), .wp-block-navigation__submenu-container > li:nth-child(3) > a:nth-child(1)
+	{
+background: #1a1a1a !important;
+	}
 }
 
 
