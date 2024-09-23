@@ -66,7 +66,7 @@
  .wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content {
 	 color: #fff;
 	 outline: none;
-	 background: black !important;
+	 
 }
  .wp-block-navigation:not(.has-text-color) .wp-block-navigation__responsive-container.is-menu-open {
 	 background-color: #1a1a1a;
@@ -2716,6 +2716,7 @@ background:white;
     #tix-attendees .tix-columns-3 {
         padding: 0 0% !important;
     }
+}
 
 
 	.wp-block-navigation__submenu-container > li:nth-child(1) > a:nth-child(1), li.wp-block-navigation-link:nth-child(2) > a:nth-child(1), .wp-block-navigation__submenu-container > li:nth-child(3) > a:nth-child(1)
@@ -2723,10 +2724,6 @@ background:white;
 background: black !important;
 	}
 
-.wp-block-navigation .has-child .wp-block-navigation__submenu-container > .wp-block-navigation-item > .wp-block-navigation-item__content
-	{
-background: black !important;
-	}
 
 .page-slug-2085{
 	background:#eaf3f3;
