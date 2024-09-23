@@ -2719,7 +2719,7 @@ background:white;
 
 	.wp-block-navigation__submenu-container > li:nth-child(1) > a:nth-child(1), li.wp-block-navigation-link:nth-child(2) > a:nth-child(1), .wp-block-navigation__submenu-container > li:nth-child(3) > a:nth-child(1)
 	{
-background: black;
+background: black !important;
 	}
 
 
