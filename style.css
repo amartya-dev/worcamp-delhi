@@ -2717,6 +2717,11 @@ background:white;
     }
 
 
+	.wp-block-navigation .has-child .wp-block-navigation__submenu-container > .wp-block-navigation-item > .wp-block-navigation-item__content
+	{
+background: black;
+	}
+
 
 
 .page-slug-2085{
