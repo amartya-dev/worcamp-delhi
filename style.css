@@ -2736,5 +2736,5 @@ background: black !important;
 
 .tix-row-coupon
 {
-display:none;
+display:none !important;
 }
