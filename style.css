@@ -2364,7 +2364,7 @@ background:white;
 
 
 /* attendees page */
-#tix-attendees .tix-columns-3 li {
+#tix-attendees .tix-columns-4 li {
     height: 350px;
     width: 20%;
     margin-left: 2%;
@@ -2379,7 +2379,7 @@ background:white;
     align-items: center;
 }
 @media screen and (max-width: 768px) {
-    #tix-attendees .tix-columns-3 li {
+    #tix-attendees .tix-columns-4 li {
         width: 100% !important;
     }
 }
@@ -2713,7 +2713,7 @@ background:white;
 }
 
 @media screen and (max-width: 768px) {
-    #tix-attendees .tix-columns-3 {
+    #tix-attendees .tix-columns-4 {
         padding: 0 0% !important;
     }
 	
