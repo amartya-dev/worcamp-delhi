@@ -2378,6 +2378,21 @@ background:white;
     justify-content: flex-start;
     align-items: center;
 }
+
+#tix-attendees .tix-columns-3 li {
+    height: 350px;
+    width: 30%;
+    margin-left: 2%;
+    padding: 1%;
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
 @media screen and (max-width: 768px) {
     #tix-attendees .tix-columns-4 li {
         width: 100% !important;
@@ -2394,6 +2409,7 @@ background:white;
 }
 #tix-attendees .tix-field {
     margin-left: unset !important;
+	text-align: center;
 }
 .tix-attendee-name {
     font-weight: 600 !important;
