@@ -2761,7 +2761,7 @@ border:1px solid;
 }
 
 @media screen and (max-width: 768px) {
-wp-block-post-content
+.mainer
 	{
 margin-left:15% !important;
 margin-right:15% !important;	
