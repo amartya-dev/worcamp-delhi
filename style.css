@@ -2754,3 +2754,8 @@ background: black !important;
 {
 display:none !important;
 }
+
+.attachment-post-thumbnail
+{
+border:1px solid;
+}
