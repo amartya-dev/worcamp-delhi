@@ -2763,8 +2763,8 @@ border:1px solid;
 @media screen and (max-width: 768px) {
 .mainer
 	{
-margin-left:15% !important;
-margin-right:15% !important;	
+padding-left:15% !important;
+padding-right:15% !important;	
 	}
 
 }
