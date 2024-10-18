@@ -2779,4 +2779,8 @@ background: #1a1a1a !important;
 		padding-bottom:10px !important;
 	}
 
+	 .wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content {
+	 background: #1a1a1a !important;
+}
+
 }
