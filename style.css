@@ -68,6 +68,12 @@
 	 outline: none;
 	 
 }
+
+.current-menu-item > a:nth-child(1)
+{
+ background:black;
+	 outline: none;
+}
  .wp-block-navigation:not(.has-text-color) .wp-block-navigation__responsive-container.is-menu-open {
 	 background-color: #1a1a1a;
 }
@@ -2765,6 +2771,12 @@ border:1px solid;
 	{
 padding-left:15% !important;
 padding-right:15% !important;	
+	}
+
+	.wp-block-navigation__submenu-container > li:nth-child(1) > a:nth-child(1), li.wp-block-navigation-link:nth-child(2) > a:nth-child(1), .wp-block-navigation__submenu-container > li:nth-child(3) > a:nth-child(1)
+	{
+background: #1a1a1a !important;
+		padding-bottom:10px !important;
 	}
 
 }
