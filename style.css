@@ -1273,6 +1273,10 @@
 }
 
 @media screen and (max-width: 600px) {
+    #tix-attendees .tix-columns-3 li {
+        width: 100% !important;
+    }
+
     .why-wordcamp-text {
         font-size: 24px;
     }
