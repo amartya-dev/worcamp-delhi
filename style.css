@@ -1068,7 +1068,7 @@
 }
 
 .sponsor-info-details {
-    animation: fade 50s infinite;
+    animation: fade 60s infinite;
     opacity: 0;
     visibility: hidden;
     position: absolute;
