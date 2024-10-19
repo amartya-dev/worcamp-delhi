@@ -2549,6 +2549,7 @@ background:white;
 }
 
 /* Silver and Bronze specific styles */
+.anup-logo-row-style-1--grid-3 .anup-logo-style-1__left,
 .anup-logo-row-style-1--grid-4 .anup-logo-style-1__left,
 .anup-logo-row-style-1--grid-5 .anup-logo-style-1__left {
     flex: 1;
