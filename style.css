@@ -990,8 +990,8 @@
 }
 
 .gold-sponsor-tile {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     gap: 0px;
     border-radius: 10px;
     background-color: #FFFF;
@@ -2787,5 +2787,8 @@ background: #1a1a1a !important;
 	 .wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content {
 	 background: #1a1a1a !important;
 }
-
+.gold-sponsor-tile {
+    width: 150px;
+    height: 150px;
+}
 }
