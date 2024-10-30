@@ -1068,7 +1068,7 @@
 }
 
 .sponsor-info-details {
-    animation: fade 60s infinite;
+    animation: fade 70s infinite;
     opacity: 0;
     visibility: hidden;
     position: absolute;
@@ -1085,6 +1085,7 @@
 .sponsor-info-details:nth-child(4) { animation-delay: 30s; }
 .sponsor-info-details:nth-child(5) { animation-delay: 40s; }
 .sponsor-info-details:nth-child(6) { animation-delay: 50s; }
+.sponsor-info-details:nth-child(7) { animation-delay: 60s; }
 @keyframes fade {
     0% {
         opacity: 0;
