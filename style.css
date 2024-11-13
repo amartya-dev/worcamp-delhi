@@ -2424,6 +2424,10 @@ background:white;
     #tix-attendees .tix-columns-4 li {
         width: 100% !important;
     }
+
+    #tix-attendees .tix-columns-5 li {
+        width: 100% !important;
+    }
 }
 #tix-attendees .avatar {
     width: 50% !important;
