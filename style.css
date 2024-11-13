@@ -2404,6 +2404,22 @@ background:white;
   align-items: center;
   padding-top: 20px;
 }
+
+#tix-attendees .tix-columns-5 li {
+    height: 320px;
+  width: 30%;
+  margin-left: 2%;
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+}
+
 @media screen and (max-width: 768px) {
     #tix-attendees .tix-columns-4 li {
         width: 100% !important;
