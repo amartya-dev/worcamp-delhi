@@ -2813,3 +2813,22 @@ background: #1a1a1a !important;
     height: 150px;
 }
 }
+
+
+/** Styles for schedule page *//
+.wordcamp-schedule__day-2024-12-01-tracks-all {
+    padding: 3%;
+}
+
+.wordcamp-schedule__column-header {
+    background-color: #fff !important;
+    border: 1px solid #ddd;
+}
+
+.wordcamp-schedule__time-slot-header {
+    color: #25648f;
+}
+
+.wordcamp-schedule__session-title {
+    color: #25648f;
+}
