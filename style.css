@@ -2817,7 +2817,7 @@ background: #1a1a1a !important;
 
 /** Styles for schedule page *//
 .wordcamp-schedule__day {
-    padding: 3%;
+    padding: 3% !important;
 }
 
 .wordcamp-schedule__column-header {
